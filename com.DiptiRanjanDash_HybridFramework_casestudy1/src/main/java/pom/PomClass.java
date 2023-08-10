@@ -8,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import generics.Autoconstant;
 import generics.BasePage;
 import generics.ExcelLibrary;
@@ -30,15 +29,15 @@ public class PomClass extends BasePage implements Autoconstant {
 	@FindBy (xpath = "//input[@class=\"submit-button btn_action\"]")
 	private WebElement loginbutton;
 	
-    @FindBy (xpath = "//button[@id='react-burger-menu-btn']")
-    private WebElement burgermenu;
+       @FindBy (xpath = "//button[@id='react-burger-menu-btn']")
+       private WebElement burgermenu;
     
-    @FindBy(xpath = "//a[@id=\"logout_sidebar_link\"]")
-    private WebElement logout;
+       @FindBy(xpath = "//a[@id=\"logout_sidebar_link\"]")
+       private WebElement logout;
     
     
 	
-   //initialization
+        //initialization
 	
 	public PomClass(WebDriver driver)
 	{
