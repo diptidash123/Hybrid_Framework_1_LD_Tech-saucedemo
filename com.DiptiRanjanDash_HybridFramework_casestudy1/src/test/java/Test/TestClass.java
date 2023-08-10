@@ -1,10 +1,8 @@
 package Test;
 
 import java.io.IOException;
-
 import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
-
 import generics.BaseTest;
 import pom.PomClass;
 
